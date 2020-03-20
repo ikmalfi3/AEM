@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEM", "AEM\AEM.csproj", "{5282A733-A63B-48A7-93C1-07E0B970ECF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5282A733-A63B-48A7-93C1-07E0B970ECF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5282A733-A63B-48A7-93C1-07E0B970ECF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5282A733-A63B-48A7-93C1-07E0B970ECF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5282A733-A63B-48A7-93C1-07E0B970ECF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D575E070-B115-48C6-8B3F-C8B9C7D25C80}
+	EndGlobalSection
+EndGlobal

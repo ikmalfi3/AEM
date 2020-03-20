@@ -1,0 +1,25 @@
+﻿@model AEM.Models.SyncResultDTO
+@{
+    ViewData["Title"] = "SyncActual";
+}
+
+<h1>SyncActual</h1>
+
+@{
+    <ul class="list-group">
+        @if (Model.Success == false)
+        {
+            <li class="list-group-item">Sync Failed</li>
+            <li class="list-group-item">@Model.Message</li>
+        }
+        else
+        {
+            <li class="list-group-item">Sync Successful</li>
+            foreach (var msg in Model.UpdatedMessage)
+            {
+                <li class="list-group-item">@msg</li>
+            }
+        }
+    </ul>
+}
+

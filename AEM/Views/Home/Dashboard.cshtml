@@ -1,0 +1,15 @@
+﻿@model AEM.Models.User
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Dashboard</h1>
+
+<div class="container">
+    <div>
+        <div class=" list-group text-center" style="width:50%;margin:auto">
+            <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Home" asp-action="SyncActual" asp-route-TokenString="@Model.Token">Sync DB Actual</a>
+            <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Home" asp-action="SyncDummy" asp-route-TokenString="@Model.Token">Sync DB Dummy</a>
+        </div>
+    </div>
+</div>
